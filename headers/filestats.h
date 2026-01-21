@@ -1,5 +1,5 @@
-#ifndef HTTP_SERVER_C_FILESTATS_H
-#define HTTP_SERVER_C_FILESTATS_H
+#ifndef FILESTATS_H
+#define FILESTATS_H
 typedef enum {
     ErrOpeningFile,
     GetFileStatsSuccess
@@ -13,4 +13,4 @@ typedef struct {
 
 fileStatsError get_file_stats(fileStats *file_stats, char *filename);
 void print_file_stats(char *filename);
-#endif //HTTP_SERVER_C_FILESTATS_H
+#endif //FILESTATS_H
